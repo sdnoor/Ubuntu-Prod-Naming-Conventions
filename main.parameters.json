@@ -12,7 +12,7 @@
       "value": "weu"
     },
     "vmSize": {
-      "value": "Standard_DC1s_v2"
+      "value": "Standard_B4ms"
     },
     "adminUserName": {
       "value": "logitech"
