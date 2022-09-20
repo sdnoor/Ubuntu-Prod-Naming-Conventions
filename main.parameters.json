@@ -3,7 +3,7 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "project": {
-      "value": "abe"
+      "value": "abc"
     },
     "location": {
       "value": "westeurope"

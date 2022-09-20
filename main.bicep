@@ -24,7 +24,7 @@ var storageAccountName = 'sto${project}${locationname}${environmentType}'
 var nicName = 'NIC-VMLwso2-${environmentType}'
 var pubIPVM = 'pubIP-vm-wso2-${environmentType}'
 var vNetName = 'vnet-wso2-${locationname}-${environmentType}'
-var    linuxConfiguration = {
+var linuxConfiguration = {
   disablePasswordAuthentication: true
   ssh: {
     publicKeys: [
@@ -35,11 +35,6 @@ var    linuxConfiguration = {
     ]
   }
 }
-
-
-
-
-
 
 resource ubuntuVM 'Microsoft.Compute/virtualMachines@2020-12-01' = {
   name: vmName
